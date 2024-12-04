@@ -6,7 +6,6 @@ import chess
 app = Flask(__name__)
 CORS(app)
 
-# Initialize the AI model
 ai = ChessAI()
 
 @app.route('/', methods=['GET'])

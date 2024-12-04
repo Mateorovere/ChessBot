@@ -3,7 +3,7 @@ import Chessboard from 'chessboardjsx';
 import { Chess } from 'chess.js';
 import axios from 'axios';
 import { Github, Linkedin } from 'lucide-react';
-import './ChessboardComponent.css';  // Make sure to create this CSS file
+import './ChessboardComponent.css';
 
 const ChessboardComponent = () => {
   const [game, setGame] = useState(new Chess());
